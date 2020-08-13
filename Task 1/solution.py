@@ -1,6 +1,5 @@
 with open("names.txt") as file:
     names = file.read().replace("\"", "").split(",")
-
 names.sort()
 i = 0
 res = 0
